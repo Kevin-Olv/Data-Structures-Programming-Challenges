@@ -1,0 +1,10 @@
+"civic" is a palindrome permutation
+"tacocat" is a palindrome permutation
+"ivicc" is a palindrome permutation
+"civil" is not a palindrome permutation
+"livci" is not a palindrome permutation
+"efgkors" is not a palindrome permutation
+"bob" is a palindrome permutation
+"racecar" is a palindrome permutation
+"kevin" is not a palindrome permutation
+"montana" is not a palindrome permutation

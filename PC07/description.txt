@@ -1,0 +1,13 @@
+The data structure used to store the intermediate steps in
+is_permutation was a Hash table. The main reason I used a hash table 
+is speed. The access time of an element is on average O(1), 
+therefore lookup could be performed very fast. A Palindrome Permutation
+occurs when each letter in the string occurs an even number of times, with only 
+one letter permitted to occur an odd number of times The function testPermutations
+sends a string to is_permutation which then uses a hash table to go through 
+each character to check how many times it has come out in the string. Making
+sure that at most one character occurs odd number of times and all other characters
+occur even number of times. The time complexity for is_permutation should be O(N).
+It has one for loop that only goes through the string once, which is O(N) and two
+if-statements which should both be O(1). This results in O(N + 2) but we can ignore 
+the +2 because it is still linear. 
