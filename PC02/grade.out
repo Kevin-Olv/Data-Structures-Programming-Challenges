@@ -1,0 +1,41 @@
+-----------------------------
+Grading script for Programming Challenge 02
+
+Student's Name: m
+Student's ID  : m
+
+These tests evaluate if you met the Production Quality Compilation Standards.
+To get the best results, run 'make clean' before running this script next time.
+If you are a student, don't forget to run 'make clean' before you push!
+
+-----------------------------
+Testing for clean pushing to GitHub
+Student successfully pushed to GitHub with no object files
+50 / 50
+Student successfully pushed to GitHub with no executables
+50 / 50
+
+-----------------------------
+Testing make clean
+Student successfully implement make clean
+50 / 50
+
+
+-----------------------------
+Testing make PC02
+rm -rf objects/* exe/*
+make PC02 output  : 
+gcc -O2 -g -Wall -Wextra -Wconversion -Wshadow -Werror -lm -c src/rotations.c -o objects/rotations.o gcc -O2 -g -Wall -Wextra -Wconversion -Wshadow -Werror -lm -c src/main.c -o objects/main.o gcc -O2 -g -Wall -Wextra -Wconversion -Wshadow -Werror -lm -o exe/PC02 objects/rotations.o objects/main.o
+
+make PC02 test failed
+0 / 100
+To the grading TA - Manually check if the make PC02 does not contain these flags.
+If it actually works, reward them back the 100 points and delete theese comment.
+If not, then they violated the PQC rules, and deduct another 300 points.
+-----------------------------
+PC02 Successfully Compiled!
+150 / 150
+
+-----------------------------
+
+PC02 Standards Grade Portion for m (m): 300 / 400 
